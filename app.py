@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load data
-df = pd.read_csv("shopzetu.csv")
+df = pd.read_csv("shopetu.csv")
 
 # Title and description
 st.title("Shopzetu simple recommender system")
